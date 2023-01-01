@@ -1,0 +1,5 @@
+DB_NAME = "lol"
+CONFIG_TABLE = "lol.config"
+CHAMPIONS_TABLE = "lol.champions"
+ITEMS_TABLE = "lol.items"
+ITEMS_NAMES_TABLE = "lol.items_names"
