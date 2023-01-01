@@ -50,7 +50,7 @@ for file_name in files_names:
     file.close()
 
 platform = "br1"
-api_key = "RGAPI-3ea3c1e6-2e08-411e-b599-e40f7ae371e1"
+api_key = "api key"
 file_name = f"./puuid/puuid-{datetime.now()}.txt"
 print(f"names length ===>>>{len(names)}")
 with open(file_name, "w") as file:

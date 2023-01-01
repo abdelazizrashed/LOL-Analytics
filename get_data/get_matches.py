@@ -75,7 +75,7 @@ print(f"matchids length ===>>>{len(matchids)}")
 
 region = 'americas'
 
-api_key = "RGAPI-977f6fc6-eb89-4d35-883c-615aa4e81b5c"
+api_key = "api key"
 
 
 def write_match_json(j: dict, id: str):

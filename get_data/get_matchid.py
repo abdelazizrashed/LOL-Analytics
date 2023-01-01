@@ -63,9 +63,7 @@ puuids = list(dict.fromkeys(puuids))
 print(f"puuids length ===>>>{len(puuids)}")
 
 region = 'americas'
-# api_key = "RGAPI-4a7ebe1d-8f1a-478b-b9c6-886e63cd1cf9"
-
-api_key = "RGAPI-3ea3c1e6-2e08-411e-b599-e40f7ae371e1"
+api_key = "api key"
 file_name = f"./match/match-{datetime.now()}.txt"
 with open(file_name, "w") as file:
     puuid = get_matchId(region, api_key, puuids, file)

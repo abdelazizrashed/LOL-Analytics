@@ -34,7 +34,7 @@ def get_leagues(platform, api):
 
 file_name = f"./names/names-{datetime.now()}.txt"
 platform = "br1"
-api_key = "RGAPI-3ea3c1e6-2e08-411e-b599-e40f7ae371e1"
+api_key = "api key"
 names = get_leagues(platform, api_key)
 with open(file_name, "w") as f:
     f.writelines([name + "\n" for name in names])
