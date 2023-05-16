@@ -1,4 +1,4 @@
-# League of Legeneds (LOL) Game Analytics
+# League of Legeneds (LOL) Game Analytics using Apache Spark
 
 This project is made using Apache Spark and the processed data is already saved in local Spark SQL database
 
